@@ -395,6 +395,12 @@ body {
   .advantages__img img {
     width: 100%;
   }
+  .slide img {
+    filter: blur(5px);
+  }
+  .slick-center img {
+    filter: blur(0);
+  }
 }
 @media (max-width: 440px) {
   .header-content__title {

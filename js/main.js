@@ -13,6 +13,7 @@ $(function () {
   $(".close-btn").on("click", function () {
     $(".menu").removeClass("active");
   });
+
   $(".service-slider").slick({
     arrows: false,
     dots: true,
@@ -21,11 +22,12 @@ $(function () {
     speed: 1000,
     responsive: [
       {
-        breakpoint: 600,
+        breakpoint: 650,
         settings: {
+          fade: false,
           dots: false,
           centerMode: true,
-          centerPadding: "50px",
+          centerPadding: "40px",
         },
       },
     ],
