@@ -177,6 +177,9 @@ body {
   font-size: 28px;
   margin-bottom: 100px;
 }
+.section-title-footer {
+  margin-bottom: 50px;
+}
 .statistics-item__num {
   font-size: 96px;
   line-height: 112px;
@@ -306,51 +309,24 @@ body {
 }
 .footer {
   background-color: #921920;
-  padding: 83px 0 20px;
+  padding: 50px 0 100px;
 }
-.footer-btn {
-  text-align: center;
-  margin-bottom: 83px;
-}
-
-.footer-copy {
-  text-align: center;
-  font-weight: 700;
-}
-.footer-copy ul {
-  list-style: none;
-}
-.footer-copy li {
-  display: inline-block;
-  padding: 0 10px;
-  position: relative;
-}
-.footer-copy li + li::before {
-  content: "|";
-  position: absolute;
-  left: -5px;
-}
-
 .contacts {
-  padding-bottom: 100px;
+  padding: 50px 0 100px;
 }
 .contacts-container {
-  margin-top: 60px;
   display: flex;
 }
 .contact-info,
 .contact-form {
   width: 50%;
-  border: 1px solid #c9c9c9;
+  border: 1px solid #c6d6dd;
 }
 .contact-info {
-  padding: 35px 30px 60px;
+  padding: 30px 30px 60px;
 }
 .footer-logo {
   display: inline-block;
-}
-.footer-logo::after {
-  background: #efeeee;
 }
 .contact-info p {
   margin: 40px 0 30px;
@@ -365,12 +341,11 @@ body {
 .contact-item span,
 .contact-item a {
   font-size: 14px;
-  color: #9b9b9b;
   font-weight: bold;
   text-decoration: none;
 }
 .contact-item i {
-  color: #ed7e01;
+  color: #c6d6dd;
   font-size: 20px;
   margin-right: 20px;
 }
@@ -383,8 +358,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #c9c9c9;
-  color: var(--white);
+  background: #c6d6dd;
   margin-right: 10px;
   font-size: 20px;
   text-align: center;
@@ -413,16 +387,18 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   height: 40px;
   border: none;
-  border-bottom: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c6d6dd;
   background: none;
   font-size: 14px;
   margin-bottom: 30px;
   outline: none;
+  color: #fff;
 }
 .contact-form textarea {
   height: 130px;
@@ -505,6 +481,13 @@ body {
   }
   .container-gallery a {
     flex: 0 49%;
+  }
+  .contacts-container {
+    flex-direction: column;
+  }
+  .contact-info,
+  .contact-form {
+    width: 100%;
   }
 }
 
