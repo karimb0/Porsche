@@ -400,6 +400,10 @@ body {
   outline: none;
   color: #fff;
 }
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #c6d6dd;
+}
 .contact-form textarea {
   height: 130px;
   resize: none;
