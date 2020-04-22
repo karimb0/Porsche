@@ -43,12 +43,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div class="header-top">
+        <div class="header-top" data-aos="new-opacity" data-aos-duration="3000" data-aos-delay="1500">
           <div class="logo">
             <a href="#">
               <img src="images/logo2.png" alt="" />
@@ -61,16 +62,18 @@
           </div>
         </div>
         <div class="header-content">
-          <h1 class="header-content__title">
+          <h1 class="header-content__title" data-aos="new-opacity"data-aos-duration="3000" data-aos-delay="500">
             Taycan Turbo S
           </h1>
-          <div class="header-content__text">
+          <div class="header-content__text" data-aos="new-opacity" data-aos-duration="3000" data-aos-delay="1500" >
             Porsche Taycan 2020 — электромобиль, которому еще предстоит
             сразиться в цифровом поединке с конкурентами.
           </div>
-          <a class="button" href="#">
-            Заказать
-          </a>
+          <div data-aos="new-opacity" data-aos-duration="3000" data-aos-delay="1500">
+            <a class="button" href="#" >
+              Заказать
+            </a>
+          </div>
         </div>
       </div>
     </header>
@@ -104,7 +107,7 @@
     <section class="statistics">
       <h2 class="section-title">Характеристики</h2>
       <div class="container">
-        <div class="statistics-items">
+        <div class="statistics-items" data-aos="flip-down">
           <div class="statistics-item">
             <div class="statistics-item__title">
               Двигатель
@@ -157,23 +160,23 @@
       <div class="container">
         <div class="advantages-inner">
           <div class="advantages-inner__row">
-            <div class="advantages-descr">
+            <div class="advantages-descr" data-aos="new-opacity" >
               <div class="advantages__title">Мощность</div>
               <div class="advantages__text">
                 Модель Taycan Turbo S выдает 560 кВт (761 л.с. / 1050 Нм)
                 мощности.
               </div>
             </div>
-            <div class="advantages__img">
+            <div class="advantages__img" data-aos="new-opacity" >
               <img src="images/power.jpg" alt="" />
             </div>
           </div>
 
           <div class="advantages-inner__row advantages-inner__row--mobile">
-            <div class="advantages__img">
+            <div class="advantages__img" data-aos="new-opacity" >
               <img src="images/bat.jpg" alt="" />
             </div>
-            <div class="advantages-descr">
+            <div class="advantages-descr" data-aos="new-opacity" >
               <div class="advantages__text">
                 <ul>
                   <li>Два двигателя</li>
@@ -198,7 +201,7 @@
     <section class="design">
       <h2 class="section-title section-title-mobil">Дизайн</h2>
       <div class="service__ext">
-        <div class="service-slider">
+        <div class="service-slider" data-aos="fade-right">
           <div class="slide">
             <img src="images/ext/ext1.jpg" alt="" />
           </div>
@@ -221,7 +224,7 @@
             <img src="images/ext/ext7.jpg" alt="" />
           </div>
         </div>
-        <div class="service-block">
+        <div class="service-block" data-aos="fade-left">
           <h2 class="section-title">Экстерьер</h2>
           <div class="container service-container">
             <p>
@@ -235,7 +238,7 @@
       </div>
 
       <div class="service__int">
-        <div class="service-block">
+        <div class="service-block" data-aos="fade-up" >
           <h2 class="section-title">Интерьер</h2>
           <div class="container service-container">
             <p>
@@ -246,7 +249,7 @@
             </p>
           </div>
         </div>
-        <div class="service-slider">
+        <div class="service-slider" data-aos="fade-up" >
           <div class="slide">
             <img src="images/int/int1.jpg" alt="" />
           </div>
@@ -277,40 +280,40 @@
       <div class="container container-gallery">
         <div class="container-gallery">
           <a data-fancybox="gal" href="images/gallery/big/gallery1.jpg">
-            <img src="images/gallery/small/gallery1.jpg" alt="" />
+            <img src="images/gallery/small/gallery1.jpg" alt="" data-aos="fade-down-right"/>
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery2.jpg">
-            <img src="images/gallery/small/gallery2.jpg" alt="" />
+            <img src="images/gallery/small/gallery2.jpg" alt="" data-aos="fade-down" />
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery3.jpg">
-            <img src="images/gallery/small/gallery3.jpg" alt="" />
+            <img src="images/gallery/small/gallery3.jpg" alt="" data-aos="fade-down" />
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery4.jpg">
-            <img src="images/gallery/small/gallery4.jpg" alt="" />
+            <img src="images/gallery/small/gallery4.jpg" alt="" data-aos="fade-down-left" />
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery5.jpg">
-            <img src="images/gallery/small/gallery5.jpg" alt="" />
+            <img src="images/gallery/small/gallery5.jpg" alt="" data-aos="fade-right" />
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery6.jpg">
-            <img src="images/gallery/small/gallery6.jpg" alt="" />
+            <img src="images/gallery/small/gallery6.jpg" alt="" data-aos="new-opacity" />
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery7.jpg">
-            <img src="images/gallery/small/gallery7.jpg" alt="" />
+            <img src="images/gallery/small/gallery7.jpg" alt="" data-aos="new-opacity" />
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery8.jpg">
-            <img src="images/gallery/small/gallery8.jpg" alt="" />
+            <img src="images/gallery/small/gallery8.jpg" alt="" data-aos="fade-left" />
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery9.jpg">
-            <img src="images/gallery/small/gallery9.jpg" alt="" />
+            <img src="images/gallery/small/gallery9.jpg" alt="" data-aos="fade-up-right" />
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery10.jpg">
-            <img src="images/gallery/small/gallery10.jpg" alt="" />
+            <img src="images/gallery/small/gallery10.jpg" alt="" data-aos="fade-up-left" />
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery11.jpg">
-            <img src="images/gallery/small/gallery11.jpg" alt="" />
+            <img src="images/gallery/small/gallery11.jpg" alt="" data-aos="fade-up-left" />
           </a>
           <a data-fancybox="gal" href="images/gallery/big/gallery12.jpg">
-            <img src="images/gallery/small/gallery12.jpg" alt="" />
+            <img src="images/gallery/small/gallery12.jpg" alt="" data-aos="fade-up-left" />
           </a>
         </div>
       </div>
@@ -318,7 +321,7 @@
 
     <footer >
       <h2 class="section-title section-title-footer">Вас заинтересовало?</h2>
-      <div class="footer">
+      <div class="footer" data-aos="zoom-in">
         <div class="container contacts-container">
           <div class="contact-info">
           <div class="logo footer-logo">
@@ -382,6 +385,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
   </body>

@@ -284,6 +284,7 @@ body {
 .service__ext,
 .service__int {
   margin-bottom: 200px;
+  overflow: hidden;
 }
 .container-gallery {
   display: flex;
@@ -423,6 +424,15 @@ body {
 .contact-form button:hover {
   background-color: #c6d6dd;
   color: #921920;
+}
+
+[data-aos="new-opacity"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+
+[data-aos="new-opacity"].aos-animate {
+  opacity: 1;
 }
 
 @media (max-width: 1220px) {
